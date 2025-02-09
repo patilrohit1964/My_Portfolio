@@ -9,7 +9,7 @@ import {
   DiPython,
   DiReact
 } from "react-icons/di";
-import { SiMysql } from "react-icons/si";
+import { SiMysql, SiExpress } from "react-icons/si";
 import { Card } from "semantic-ui-react";
 
 const TechStack = () => {
@@ -39,7 +39,7 @@ const TechStack = () => {
           <Card raised className="item">
             {" "}
             <CgCPlusPlus
-              style={{ width: "100%", height: "auto", color: "black" }}
+              style={{ width: "100%", height: "auto", color: "royalblue" }}
             />{" "}
           </Card>
           <Card raised className="item">
@@ -81,13 +81,19 @@ const TechStack = () => {
           <Card raised className="item">
             {" "}
             <DiGit
-              style={{ width: "100%", height: "auto", color: "green" }}
+              style={{ width: "100%", height: "auto", color: "red" }}
             />{" "}
           </Card>
           <Card raised className="item">
             {" "}
             <DiGithubBadge
-              style={{ width: "100%", height: "auto", color: "orange" }}
+              style={{ width: "100%", height: "auto", color: "black" }}
+            />{" "}
+          </Card>
+          <Card raised className="item">
+            {" "}
+            <SiExpress
+              style={{ width: "100%", height: "auto", color: "crimson" }}
             />{" "}
           </Card>
         </Card.Group>

@@ -1,46 +1,46 @@
-import leetcodeNotifier from "../../assets/leetcode.svg";
-import transferMusic from "../../assets/transferMusic.svg";
 import ecommerce from "../../assets/ecommerce.svg";
-import group from "../../assets/group.svg";
-import voting from "../../assets/voting.svg";
-import phishing from "../../assets/phishing.svg";
+import email from "../../assets/email.png";
+import jobPortal1 from "../../assets/jobPortal1.png";
+import lms from "../../assets/lms.png";
+import movie from "../../assets/movie.webp";
+import note from "../../assets/note.jpg";
 
 const projectData = [
     {
-        title: "Myntra E-commerce",
-        description: "Developed a fully functional clone of Myntra, an online fashion and lifestyle store",
+        title: "Myntra E-commerce Clone",
+        description: "I developed a fully functional Myntra Clone, replicating the seamless shopping experience of the popular fashion e-commerce platform. This project features an intuitive UI/UX, advanced product filtering, a responsive design, and a smooth checkout process. Built using React, Redux, Node.js, and MongoDB, it ensures a dynamic and scalable shopping experience.",
         image: ecommerce,
         projectLink: "https://github.com/patilrohit1964/myntra_clone",
     },
     {
-        title: "Blockchain crowdfunding platform",
-        description: "Crowdfunding platform built on the Ethereum network. Decentralized system to raise funds for a campaign. Used NextJS for frontend and Solidity for backend.",
-        image: group,
-        projectLink: "https://github.com/Abhinav2011/crowdfund",
+        title: "My Learning Management System (LMS)",
+        description: "I developed a feature-rich Learning Management System (LMS) designed to enhance online education by providing a seamless learning experience for students and educators. The platform includes user authentication, course management, progress tracking, and an intuitive dashboard for both learners and instructors. Built using React, Redux, Node.js, and MongoDB, it ensures high performance and scalability.",
+        image: lms,
+        projectLink: "https://github.com/patilrohit1964/my_lms",
     },
     {
-        title: "Leetcode Bookmark",
-        description: "Chrome extension which saves leetcode articles for future reference.",
-        image: phishing,
-        projectLink: "https://github.com/Abhinav2011/leetcode-bookmark",
+        title: "My Job Portal",
+        description: "I developed a Job Portal designed to bridge the gap between job seekers and employers, offering a seamless recruitment experience. This platform enables users to create profiles, upload resumes, and apply for jobs effortlessly. Employers can post job listings, filter candidates, and manage applications in a streamlined dashboard. Built using React, Redux, Node.js, and MongoDB, the portal features real-time search, role-based authentication, and a responsive UI for a smooth user experience. With secure data handling and optimized performance, this project showcases my ability to build scalable, full-stack applications that solve real-world challenges.",
+        image: jobPortal1,
+        projectLink: "https://github.com/patilrohit1964/my_job_portal",
     },
     {
-        title: "Blockchain voting platform",
-        description: "A complete decentralized voting system built on the Ethereum network. Elections can be started on the platform and users can vote for candidates. Admin has the ability to check all elections and manage them.",
-        image: voting,
-        projectLink: "https://github.com/UIpyo",
+        title: "Gmail Clone",
+        description: "Key features include Google Authentication, inbox and sent mail organization, real-time message updates using Firestore, and a responsive UI for a seamless experience across devices. This project highlights my expertise in Firebase integration, state management, and building real-time applications while ensuring scalability and security.",
+        image: email,
+        projectLink: "https://github.com/patilrohit1964/Gmail-Clone",
     },
     {
-        title: "LeetCode Notifier",
-        description: "A discord bot which helps you in your leetcode journey. Built using NodeJs and DiscordJs.",
-        image: leetcodeNotifier,
-        projectLink: "https://github.com/Abhinav2011/Leetcode-notifier",
+        title: "Note Management",
+        description: "I developed a Notes Management System that allows users to create, edit, organize, and delete notes effortlessly. Built using React and Firebase, this app ensures real-time data synchronization, secure authentication, and a clean, intuitive UI for an enhanced user experience. Key features include rich text editing, categorization, search functionality, and cloud storage with Firestore. The app is fully responsive, enabling users to access their notes from any device. This project showcases my expertise in full-stack development, real-time database integration, and user-friendly design.",
+        image: note,
+        projectLink: "https://github.com/patilrohit1964/Node_Start/tree/main/notes-pr",
     },
     {
-        title: "E-commerce-API",
-        description: "E-commerce API made using NodeJS, express and MongoDB. Used JWT for user authentication.",
-        image: ecommerce,
-        projectLink: "https://github.com/patilrohit1964/myntra_clone",
+        title: "Movie Crud",
+        description: "I developed a Movie Management System that allows users to add, edit, view, and delete movies effortlessly. Built using React, Node.js, Express, and MongoDB, this project follows a clean and minimalistic approach to CRUD operations. Key features include a responsive UI, dynamic movie listing, form validation, and database integration for persistent storage.This project highlights my ability to build full- stack applications with RESTful APIs, efficient state management, and seamless user interactions.",
+        image: movie,
+        projectLink: "https://github.com/patilrohit1964/Node_Start/tree/main/MOVIE%20PROJECTS",
     },
 
 

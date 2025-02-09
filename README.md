@@ -42,7 +42,7 @@ The app will be available at http://localhost:5173.
 <p>If you have any questions, feel free to reach out:</p>
 <ul>
     <li><strong>Email:</strong> patilrohit1964@gmail.com</li>
-    <li><strong>LinkedIn:</strong> <a href="www.linkedin.com/in/patilrohit1964" target="_blank">Patil Rohit</a></li>
+    <li><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/patilrohit1964" target="_blank">Patil Rohit</a></li>
     <li><strong>GitHub:</strong> <a href="https://github.com/patilrohit1964" target="_blank">Patil Rohit</a></li>
 </ul>
 

@@ -36,7 +36,7 @@ npm i
 npm run dev
 The app will be available at http://localhost:5173.
 <h2>📌 Live Demo</h2>
-<p>Check out the live version: <a href="[https://your-portfolio-link.com](https://my-portfolio-jl9ca4221-rohit-patils-projects-2cc6e337.vercel.app/)" target="_blank"><strong>My Portfolio</strong></a></p>
+<p>Check out the live version: <a href="https://my-portfolio-jl9ca4221-rohit-patils-projects-2cc6e337.vercel.app/" target="_blank"><strong>My Portfolio</strong></a></p>
 
 <h2>📬 Contact Me</h2>
 <p>If you have any questions, feel free to reach out:</p>

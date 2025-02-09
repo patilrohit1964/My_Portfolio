@@ -1,26 +1,23 @@
-import React, { useState,useEffect } from "react";
-import { Card } from "semantic-ui-react";
-import {
-  DiJava,
-  DiJavascript1,
-  DiReact,
-  DiNodejs,
-  DiMongodb,
-  DiPython,
-  DiGit,
-  DiGithub,
-} from "react-icons/di";
+import React, { useEffect, useState } from "react";
 import { CgCPlusPlus } from "react-icons/cg";
+import {
+  DiGit,
+  DiGithubBadge,
+  DiJavascript1,
+  DiMongodb,
+  DiNodejs,
+  DiPython,
+  DiReact
+} from "react-icons/di";
 import { SiMysql } from "react-icons/si";
-import { FaAws, FaDocker } from "react-icons/fa";
-import {SiSpringboot} from "react-icons/si";
+import { Card } from "semantic-ui-react";
 
 const TechStack = () => {
-  const [width,setWidth] = useState(1200);
+  const [width, setWidth] = useState(1200);
 
   useEffect(() => {
     setWidth(window.innerWidth);
-  },[]);
+  }, []);
 
   return (
     <div className="techstack">
@@ -89,16 +86,10 @@ const TechStack = () => {
           </Card>
           <Card raised className="item">
             {" "}
-            <DiGithub
+            <DiGithubBadge
               style={{ width: "100%", height: "auto", color: "orange" }}
             />{" "}
           </Card>
-          {/* <Card raised className="item">
-            {" "}
-            <FaDocker
-              style={{ width: "100%", height: "auto", color: "#0db7ed" }}
-            />{" "}
-          </Card> */}
         </Card.Group>
       </div>
     </div>

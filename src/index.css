@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Fira+Code&family=Poppins:wght@400;800&display=swap");
 @import "tailwindcss/base";
 @import "tailwindcss/components";
@@ -37,7 +37,6 @@ body {
   font-size: 7rem;
   width: 50%;
   height: 100vh;
-  font-weight: ;
 }
 
 .homepage-avatar {
@@ -138,20 +137,22 @@ body {
 .single-card {
   transform: scale(0.8, 0.8);
   box-shadow: 5px 5px 30px rgba(7, 73, 228, 0.4) !important;
-  background: linear-gradient(to right, rgb(182, 244, 146), rgb(51, 139, 147)) !important;
+  background: linear-gradient(
+    to right,
+    rgb(182, 244, 146),
+    rgb(51, 139, 147)
+  ) !important;
   border-radius: 2rem !important;
   border: 5px solid black !important;
 }
-.single-card-button{
+.single-card-button {
   background-color: green !important;
 }
-
 
 .single-card:hover {
   transform: scale(0.9, 0.9);
   box-shadow: 5px 5px 30px rgba(7, 73, 228, 0.6) !important;
 }
-
 
 .contact-box {
   display: flex;
@@ -160,30 +161,28 @@ body {
   margin-top: 5rem;
 }
 .contact-icon {
-  width:50%;
-  height:auto;
+  width: 50%;
+  height: auto;
 }
 .contact-text {
   font-size: xx-large !important;
 }
 
-.header-buttons:hover{
-  transform: scale(1.1,1.1);
+.header-buttons:hover {
+  transform: scale(1.1, 1.1);
   background-color: green !important;
 }
 
 .footer-left-text {
-  font-family: 'Lobster', cursive;
+  font-family: "Lobster", cursive;
   font-size: x-large;
-  color:bisque;
+  color: bisque;
 }
 
-.contact-list-item:hover{
-
-  transform: scale(1.1,1.1);
+.contact-list-item:hover {
+  transform: scale(1.1, 1.1);
   border: 5 0 5 0 solid skyblue;
   border-radius: 5rem;
-
 }
 
 @media screen and (max-width: 768px) {
@@ -204,7 +203,6 @@ body {
   }
   .home-parent {
     flex-direction: column;
-
   }
   .home-content {
     width: 0;
@@ -218,6 +216,4 @@ body {
   .downloadPdf {
     margin-top: 2rem;
   }
-
-
 }

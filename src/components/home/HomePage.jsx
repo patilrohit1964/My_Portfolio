@@ -1,8 +1,8 @@
 import React from "react";
-import TypeAnimation from "./TypeAnimation";
-import HomeBottomPage from "./HomeBottomPage";
 import developer from "../../assets/developer.svg";
-import Tilt from "react-parallax-tilt";
+import HomeBottomPage from "./HomeBottomPage";
+import TypeAnimation from "./TypeAnimation";
+
 const HomePage = () => {
   return (
     <div className="home">

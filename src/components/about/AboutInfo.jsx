@@ -3,7 +3,7 @@ import TechStack from "./TechStack";
 import { BsFillArrowRightSquareFill } from "react-icons/bs";
 import codeImage from "../../assets/coder.svg";
 import GitHubCalendar from "react-github-calendar";
-
+import Tilt from "react-parallax-tilt";
 const AboutInfo = () => {
   return (
     <div className="about">
@@ -24,14 +24,14 @@ const AboutInfo = () => {
             <span style={{ color: "#32CD30", fontWeight: "bold" }}>
               Rohit Patil
             </span>{" "}
-            from Surat,India. I did my Bsc.IT in Information Technology
+            from Maharashtra, India. I did my Bsc.IT in Information Technology
             from{" "}
             <span style={{ color: "#32CD30", fontWeight: "bold" }}>
               Swarnium University
             </span>{" "}
-            and currently I'm interning at{" "}
+            and currently I'm working at{" "}
             <span style={{ color: "#32CD30", fontWeight: "bold" }}>
-              JP Morgan Chase & Co
+              Techno Bot System Technology
             </span>
             .
           </p>
@@ -55,6 +55,10 @@ const AboutInfo = () => {
               <li>
                 <BsFillArrowRightSquareFill style={{ display: "inline" }} />{" "}
                 Critical Thinking
+              </li>
+              <li>
+                <BsFillArrowRightSquareFill style={{ display: "inline" }} />{" "}
+                Playing Video Games
               </li>
             </ul>
           </p>
@@ -84,6 +88,7 @@ const AboutInfo = () => {
           blockSize={12}
           fontSize={16}
           color={"#32CD30"}
+          year={2025}
         />
       </div>
     </div>

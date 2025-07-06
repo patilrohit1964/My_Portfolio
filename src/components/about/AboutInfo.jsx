@@ -31,7 +31,7 @@ const AboutInfo = () => {
             </span>{" "}
             and currently I'm working at{" "}
             <span style={{ color: "#32CD30", fontWeight: "bold" }}>
-              Techno Bot System Technology
+              STM
             </span>
             .
           </p>

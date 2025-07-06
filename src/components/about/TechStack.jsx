@@ -9,7 +9,7 @@ import {
   DiPython,
   DiReact
 } from "react-icons/di";
-import { SiMysql, SiExpress } from "react-icons/si";
+import { SiMysql, SiExpress, SiTypescript, SiNextdotjs } from "react-icons/si";
 import { Card } from "semantic-ui-react";
 
 const TechStack = () => {
@@ -93,6 +93,18 @@ const TechStack = () => {
           <Card raised className="item">
             {" "}
             <SiExpress
+              style={{ width: "100%", height: "auto", color: "crimson" }}
+            />{" "}
+          </Card>
+          <Card raised className="item">
+            {" "}
+            <SiTypescript
+              style={{ width: "100%", height: "auto", color: "crimson" }}
+            />{" "}
+          </Card>
+          <Card raised className="item">
+            {" "}
+            <SiNextdotjs
               style={{ width: "100%", height: "auto", color: "crimson" }}
             />{" "}
           </Card>

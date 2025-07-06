@@ -17,13 +17,13 @@ const HomeBottomPage = () => {
         <div className="intro-text">
           <p>
             I am Rohit Patil, currently interning at{" "}
-            <span style={{ color: "#32CD30" }}>JP Morgan Chase</span> as a
-            Software Engineer
+            <span style={{ color: "#32CD30" }}>STM</span> as a
+            Full Stack Developer
           </p>
           <br />
           <p>
             I love working as a <span style={{ color: "#32CD30" }}>Full Stack Developer</span> and My tech stack includes
-            NodeJs, React, ExpressJs, Mongodb. I am also familar with Git and Github.
+            NodeJs, React, ExpressJs, Typescript, Next, Graphql, Mongodb. I am also familar with Git and Github.
           </p>
           <br />
           <p>

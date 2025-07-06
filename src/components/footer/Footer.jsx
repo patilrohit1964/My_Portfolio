@@ -22,7 +22,7 @@ const Footer = () => {
           </a>
         </li>
         <li>
-          <a href="https://www.instagram.com/srs_rohit90?igsh=MTI1a2N3YTNlYmV1Mg==" className="mr-4 hover:underline md:mr-6">
+          <a href="https://www.instagram.com/srs_rohityaaa/" className="mr-4 hover:underline md:mr-6">
             <BsInstagram style={{ color: '#87CEEB', width: "200%", height: "auto" }} />
           </a>
         </li>

@@ -7,10 +7,10 @@ import note from "../../assets/note.jpg";
 
 const projectData = [
     {
-        title: "Myntra E-commerce Clone",
-        description: "I developed a fully functional Myntra Clone, replicating the seamless shopping experience of the popular fashion e-commerce platform. This project features an intuitive UI/UX, advanced product filtering, a responsive design, and a smooth checkout process. Built using React, Redux, Node.js, and MongoDB, it ensures a dynamic and scalable shopping experience.",
+        title: "E-commerce",
+        description: "I developed a fully functional E-commerce, replicating the seamless shopping experience of the popular fashion e-commerce platform. This project features an intuitive UI/UX, advanced product filtering, a responsive design, and a smooth checkout process. Built using NextJs, Redux, Tanstack, and MongoDB, it ensures a dynamic and scalable shopping experience.",
         image: ecommerce,
-        projectLink: "https://github.com/patilrohit1964/myntra_clone",
+        projectLink: "https://github.com/patilrohit1964/e-commerce",
     },
     {
         title: "My Learning Management System (LMS)",

@@ -31,7 +31,7 @@ const AboutInfo = () => {
             </span>{" "}
             and currently I'm working at{" "}
             <span style={{ color: "#32CD30", fontWeight: "bold" }}>
-              STM
+              Twin
             </span>
             .
           </p>
@@ -88,7 +88,7 @@ const AboutInfo = () => {
           blockSize={12}
           fontSize={16}
           color={"#32CD30"}
-          year={2025}
+          year={2026}
         />
       </div>
     </div>

@@ -4,7 +4,7 @@ import Tilt from "react-parallax-tilt";
 import { FiDownloadCloud } from "react-icons/fi";
 import { Button } from "@mui/material";
 
-const resumeURL = "https://drive.google.com/file/d/1dfd-CkTfOTnGznMo2Fa0foMpkD3Kzmv2/view?usp=sharing";
+const resumeURL = "https://drive.google.com/file/d/1wuFx2T19swNx9apGhyNgu-miOL7Qr2vR/view?usp=sharing";
 
 const HomeBottomPage = () => {
 
@@ -16,14 +16,14 @@ const HomeBottomPage = () => {
       <div className="introduction">
         <div className="intro-text">
           <p>
-            I am Rohit Patil, currently interning at{" "}
-            <span style={{ color: "#32CD30" }}>STM</span> as a
+            I am Rohit Patil, currently working at{" "}
+            <span style={{ color: "#32CD30" }}>Twin</span> as a
             Full Stack Developer
           </p>
           <br />
           <p>
             I love working as a <span style={{ color: "#32CD30" }}>Full Stack Developer</span> and My tech stack includes
-            NodeJs, React, ExpressJs, Typescript, Next, Graphql, Mongodb. I am also familar with Git and Github.
+            NodeJs, React, ExpressJs, Typescript, NextJs, Graphql, Mongodb. I am also familar with Git and Github.
           </p>
           <br />
           <p>

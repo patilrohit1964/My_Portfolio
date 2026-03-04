@@ -6,7 +6,7 @@ const SingleProjectCard = ({ projectDetails }) => {
   const { title, description, image, projectLink } = projectDetails;
 
   return (
-    <Card className="single-card">
+    <Card className="single-card overflow-hidden">
       <Image className="projectCard-image" src={image} wrapped ui={false} />
       <Card.Content className="single-card-content">
         <Card.Header style={{ fontSize: "2rem" }}>{title}</Card.Header>

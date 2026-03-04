@@ -18,7 +18,7 @@ const HomeBottomPage = () => {
           <p>
             I am Rohit Patil, currently working at{" "}
             <span style={{ color: "#32CD30" }}>Twin</span> as a
-            Full Stack Developer
+            Full Stack Developer 
           </p>
           <br />
           <p>
